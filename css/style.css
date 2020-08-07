@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* header */
+
+.header h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: #000000;
+}
+
+.header p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+}
+
+.header .btn-primary {
+    background-color: #458FF6;
+    width: 200px;
+    height: 60px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.header .nav-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+/* header end */
+
+/* section-services */
+
+.section-services {
+    margin-top: 192px;
+    width: 100%;
+    height: 100%;
+}
+
+.section-services h3::after {
+    content: '';
+    display: block;
+    width: 55px;
+    height: 2px;
+    background-color: #000000;
+    margin: 30px auto;
+}
+
+.section-services h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.section-services .col-lg-12 p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #7D7987;
+    mix-blend-mode: normal;
+
+}
+
+.section-services .col-lg-3 h5 {
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+
+}
+
+.section-services .col-lg-3 p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+}
+
+.section-services .col-lg-3 {
+    border-radius: 10px;
+    margin: 30px 0;
+    box-shadow: 2px 2px 50px 1px #DEEEFE;
+}
+
+.section-services .btn-outline-primary {
+    width: 200px;
+    height: 60px;
+    font-style: normal;
+    font-size: 18px;
+}
+
+/* section-services end */
+
+/* section */
+
+.section {
+    margin-top: 220px;
+}
+
+.section h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.section h3::after {
+    content: '';
+    display: block;
+    width: 55px;
+    height: 2px;
+    background-color: #000000;
+    margin: 30px 0;
+}
+
+.section p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.section .btn-outline-primary {
+    width: 200px;
+    height: 60px;
+    font-style: normal;
+    font-size: 18px;
+}
+
+/* section end */
+
+/* section-cart */
+.section-cart {
+    margin-top: 216px;
+}
+
+.section-cart h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.section-cart h3::after {
+    content: '';
+    display: block;
+    width: 55px;
+    height: 2px;
+    background-color: #000000;
+    margin: 0 auto;
+    margin-top: 26px;
+}
+
+.section-cart .col-lg-3 {
+    margin-top: 80px;
+    box-shadow: 0px 10px 40px 1px #DEEEFE;
+    padding: 0;
+    margin-right: 35px;
+    margin-left: 35px;
+
+}
+
+.section-cart .card-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.section-cart .card-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+}
+
+.section-cart .btn-link {
+    padding: 0;
+}
+
+.section-cart .btn-outline-primary {
+    margin-top: 70px;
+    width: 200px;
+    height: 60px;
+    font-style: normal;
+    font-size: 18px;
+}
+
+/* section-cart end*/
+
+/* footer */
+
+.footer {
+    margin-top: 200px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    min-height: 435px;
+}
+
+.footer__copy {
+    margin: 118px 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+
+.footer__copy img {
+    padding-bottom: 20px;
+}
+
+.footer__text {
+    padding-top: 30px;
+}
+
+.footer__list {
+    margin: 109px 0;
+}
+
+.footer__list h5 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.footer__list .nav-link {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+/* footer end */
+
+@media only screen and (max-width : 768px) {
+    .header .col-lg-6 {
+        text-align: center;
+    }
+
+    .header h2 {
+        margin-top: 60px;
+    }
+
+    .header .btn {
+        min-width: 100%;
+    }
+
+    .section-services,
+    .section-cart,
+    .section,
+    .btn-outline-primary {
+        min-width: 100%;
+    }
+
+    .section .apps {
+        margin-top: 50px;
+    }
+
+    .footer__list {
+        margin: 20px 0;
+    }
+
+    .footer__copy {
+        margin: 40px auto 40px;
+    }
+}
